@@ -1,0 +1,31 @@
+html, body {
+  font-family: 'SVN-Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.main-navigation {
+  height: 94px;
+}
+
+.main-navigation .ant-menu-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+
+  &:hover {
+    a {
+      color: #3e79f7;
+    }
+  }
+
+  &:after {
+    display: none;
+  }
+}
